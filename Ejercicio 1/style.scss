@@ -1,0 +1,17 @@
+$prussianBlue: #003153;
+
+.container{
+    text-align: center;
+    background-color: $prussianBlue;
+    .header{
+        color:red;
+        .full-name{
+            background-color: $prussianBlue;
+            .first-name{
+                font-size: 20px;
+                color: white;
+                background-color: mediumpurple;
+            }
+        }
+    }
+}
