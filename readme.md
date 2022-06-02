@@ -1,0 +1,2 @@
+SASS ayuda a un desarrollo front end más eficiente ya que nos permite modularizar el código css. 
+Ésto nos permite crear plantillas que podemos reutilizar y retocar muy facilmente. Un ejemplo de ésto son las variables, mixins o funciones. Si utilizamos el mismo color para crear un tema y decidimos cambiarlo, la tarea de refractorización puede ser muy tediosa, especialmente si utilizamos el mismo color para otras cosas. Con las variables ésto resulta muy fácil. 
