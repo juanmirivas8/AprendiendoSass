@@ -1,0 +1,150 @@
+@use "sass:list";
+@use "sass:math";
+@use "sass:color";
+h6 {
+  font-size: 5px;
+}
+
+h5 {
+  font-size: 10px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h1 {
+  display: inline-block;
+  color: green;
+}
+
+h2 {
+  display: inline-block;
+  color: red;
+}
+
+h3 {
+  display: inline-block;
+  color: purple;
+}
+
+h4 {
+  display: inline-block;
+  color: #33FCFF;
+}
+
+h5 {
+  display: inline-block;
+  color: yellow;
+}
+
+h6 {
+  display: inline-block;
+  color: grey;
+}
+
+table tr:nth-child(1) {
+  background-color: green;
+}
+
+table tr:nth-child(2) {
+  background-color: red;
+}
+
+table tr:nth-child(3) {
+  background-color: purple;
+}
+
+table tr:nth-child(4) {
+  background-color: #33FCFF;
+}
+
+table tr:nth-child(5) {
+  background-color: yellow;
+}
+
+table tr:nth-child(6) {
+  background-color: grey;
+}
+
+table tr:nth-child(7) {
+  background-color: orange;
+}
+
+.container {
+  text-align: center;
+  background-color: #003153;
+  color: white;
+  width: 75vw;
+}
+
+.container .header {
+  color: aqua;
+}
+
+.container .header .full-name {
+  background-color: #003153;
+}
+
+.container .header .full-name .first-name {
+  font-size: 20px;
+  color: white;
+  background-color: mediumpurple;
+}
+
+.full-name {
+  position: fixed;
+  top: 0;
+  width: 75vw;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+body table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+@media (min-width: 1024px) {
+  .section__list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section__list-item .text {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

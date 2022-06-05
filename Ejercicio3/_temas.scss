@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    @if $theme == true {
+        background-color: $prussianBlue;
+        color:$font-color;
+    }
+    @else {
+        background-color: invert($prussianBlue);
+        color:invert($font-color);
+    }
+    width:$container-width;
+    .header{
+        color:$header-font-color;
+        .full-name{
+            background-color: $prussianBlue;
+            .first-name{
+                font-size: 20px;
+                color: $font-color;
+                background-color: $name-background-color;
+            }
+        }
+    }
+} 

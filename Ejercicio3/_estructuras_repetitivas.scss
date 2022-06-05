@@ -1,0 +1,21 @@
+@while $n > 0 {
+    h#{$n} {
+       font-size: #{$size}px;
+       $size:$size+5;
+       $n: $n - 1;
+    }
+} 
+@for $i from 1 through 6 {
+    h#{$i} {
+        display:inline-block;
+        color:nth($lista-colores , $i );
+    }
+}
+
+table { 
+    @for $i from 1 through 7 {
+        tr:nth-child(#{$i}) {
+            background-color: nth($lista-colores,$i);
+        }
+    }
+}

@@ -1,0 +1,5 @@
+@function CalcularAnchura($anchoDisponible) {
+    @if $anchoDisponible <= 1024{
+        @return 50%;
+    }
+} 

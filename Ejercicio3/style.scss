@@ -1,0 +1,27 @@
+@use "sass:list";
+@use "sass:math";
+@use "sass:color";
+@import "variables";
+@import "funciones";
+@import "estructuras_repetitivas";
+@import "mixins";
+@import "temas";
+@import "menu";
+body{
+    @include centrar;
+
+    table{
+        @include centrar;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+   .section__list-item{
+    @include centrarColumnas;
+        .text{
+            width: CalcularAnchura(1024);
+        }
+   }
+}
