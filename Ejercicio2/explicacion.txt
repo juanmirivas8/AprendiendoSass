@@ -1,0 +1,4 @@
+Utilizado for y listas para la estructura de la tabla.
+Utilizado while para cambiar los tamaños de las etiquetas h* , se les va sumando 5px
+Cuando se pasa de 1024px las lineas se reducen a la mitad para evitar lineas muy largas
+Para cambiar de tema basta con cambiar en el scss la variable de true a false y compilar
