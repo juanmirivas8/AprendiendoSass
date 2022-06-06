@@ -1,0 +1,5 @@
+///Devuelve un color de la lista de colores dependiendo de su posicion 
+/// @param {Number} $i - Posicion a devolver
+@function colorSectionTitle($i){
+    @return nth($colorList,$i);
+}

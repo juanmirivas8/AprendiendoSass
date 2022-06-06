@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+
+    .container{
+        background-color: $background;
+        color: $colorTexto;
+        padding:10px;
+        @include reset;
+        @include centrado(30px,30px,80vw);
+    } 
+}
+
+@for $i from 1 through 4{
+    .section-title-#{$i}{
+        color: colorSectionTitle($i);
+    }
+}

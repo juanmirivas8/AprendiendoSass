@@ -1,0 +1,26 @@
+.header{
+    @include flexColumns;
+    .full-name{
+        @include flexRows;
+    }
+
+    .contact-info{
+        @include flexRows;
+    }
+}
+
+.section{
+    .section__title{
+        border-bottom: solid 1px black;
+    }
+    .section__list{
+        @include flexColumns;
+        .section__list-item{
+            @include flexRows;
+            justify-content: space-evenly;
+            .name{
+                font-weight: bold;
+            }
+        }
+    }
+}

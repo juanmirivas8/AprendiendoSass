@@ -1,0 +1,25 @@
+
+$gris: #DDDDDD;
+$negro: rgb(32, 28, 28);
+$rojo: #AF5C5C;
+$verde: #6BE77F;
+$marron: #B99044;
+$azul:#604BD5;
+$blanco:white;
+///Lista de colores
+$colorList: $rojo $verde $marron $azul;
+
+///Color principal de fondo
+$background: $gris;
+///Color principal del texto
+$colorTexto: $negro;
+///Variable que determina si el tema es claro u oscuro
+$tema:true;
+
+@if $tema == true {
+    $background: $gris;
+    $colorTexto: $negro;
+}@else {
+    $background: $negro;
+    $colorTexto: $blanco;
+}

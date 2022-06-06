@@ -1,0 +1,103 @@
+@use "sass:list";
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header .full-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+.header .contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+.section .section__title {
+  border-bottom: solid 1px black;
+}
+
+.section .section__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section .section__list .section__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section .section__list .section__list-item .name {
+  font-weight: bold;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container {
+  background-color: #DDDDDD;
+  color: #201c1c;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 80vw;
+}
+
+body .container p, body .container h1, body .container h2, body .container h3, body .container h4, body .container h5, body .container h6 {
+  margin: 0;
+}
+
+.section-title-1 {
+  color: #AF5C5C;
+}
+
+.section-title-2 {
+  color: #6BE77F;
+}
+
+.section-title-3 {
+  color: #B99044;
+}
+
+.section-title-4 {
+  color: #604BD5;
+}
+/*# sourceMappingURL=style.css.map */

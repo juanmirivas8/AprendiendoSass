@@ -1,0 +1,24 @@
+///Quita los márgenes a los elementos p y h*
+@mixin reset {
+    p,h1,h2,h3,h4,h5,h6{
+        margin: 0;
+    }
+} 
+///Centra un elemento y asigna un tamaño
+@mixin centrado($margenSuperior,$margenInferior,$size){
+    margin-bottom: $margenInferior;
+    margin-top: $margenInferior;
+    width: $size;
+}
+
+///Setea un display a flex con direccion en columnas
+@mixin flexColumns {
+    display: flex;
+    flex-direction: column;
+}
+///Setea un display a flex con direccion en filas y asigna un spacing de 10 px
+@mixin flexRows {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
